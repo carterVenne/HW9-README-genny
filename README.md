@@ -4,13 +4,13 @@ README generator using command line prompts
 # My Experience
 
 
+# App Functionality
+
+
 # User Story
 AS A developer
 I WANT a README generator
 SO THAT I can quickly create a professional README for a new project
-
-# App Functionality
-
 
 # Project Requirements
 GIVEN a command-line application that accepts user input
@@ -32,6 +32,6 @@ THEN I am taken to the corresponding section of the README
 ######
 Author: Carter Venne
 
-Github repository: 
+Github repository: https://github.com/carterVenne/HW9-README-genny
 
 Deployed website: 
