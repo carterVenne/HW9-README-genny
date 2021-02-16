@@ -33,5 +33,3 @@ THEN I am taken to the corresponding section of the README
 Author: Carter Venne
 
 Github repository: https://github.com/carterVenne/HW9-README-genny
-
-Deployed website: 
