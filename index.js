@@ -47,7 +47,7 @@ inquirer.prompt([
         type: 'checkbox',
         name: 'license',
         message: 'Which licence should be attached to your apllication?',
-        choices: ['GNU', 'Apache', 'PERL', 'IBM', 'EPL', 'MIT']
+        choices: ['MIT','GNU','Apache','IBM','PERL','EPL']
     },
 ]).then((data) => {
     //console.log(data)
