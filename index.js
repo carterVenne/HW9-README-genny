@@ -48,4 +48,6 @@ inquirer.prompt([
         message: 'Which licence should be attached to your apllication?',
         choices: ['GNU', 'Apache', 'PERL', 'IBM', 'EPL', 'MIT']
     },
-])
+]).then((data) => {
+    console.log(data);
+})
