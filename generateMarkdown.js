@@ -15,9 +15,6 @@ function renderLicenseBadge(data) {
         case 'PERL':
             response = '[![License: Artistic-2.0](https://img.shields.io/badge/License-Perl-0298c3.svg)]';
             break;
-        case 'EPL':
-            response = '[![License](https://img.shields.io/badge/License-EPL%201.0-red.svg)]';
-            break;
         default:
             response = '';       
     }
@@ -26,7 +23,27 @@ function renderLicenseBadge(data) {
 
 
 function renderLicenseLink(data) {
-
+    switch (data.license[0]) {
+        case 'MIT' :
+            response = '(https://opensource.org/licenses/MIT)';
+            break;
+        case 'GNU' :
+          response = '(https://www.gnu.org/licenses/gpl-3.0)';
+          break;
+        case 'Apache' :
+          response = '(https://opensource.org/licenses/Apache-2.0)';
+          break;
+        case 'IBM' :
+          response = '(https://opensource.org/licenses/IPL-1.0)';
+          break;
+        case 'PERL' :
+          response = '(https://opensource.org/licenses/Artistic-2.0)';
+          break;
+        default:
+          response = '';
+    }
+      
+    return response;
 }
 
 function renderLicenseSection(data) {
