@@ -1,11 +1,11 @@
 # HW9-README-genny
-README generator using command line prompts
+Simple README generator using command line prompts
 
 # My Experience
 
 
-# App Functionality
-
+# Description
+Forking your own version of this repo and installing dependency inquirer allows the user to generate a simple readme using prompts from the command line.
 
 # User Story
 AS A developer
@@ -29,7 +29,31 @@ THEN this is added to the section of the README entitled Questions, with instruc
 WHEN I click on the links in the Table of Contents
 THEN I am taken to the corresponding section of the README
 
+# Installation
+Run this app in any coding terminal. Using Javascript and NODE.js you must first use command:
+```bash
+npm i
+```
+to install the necessary dependency of inquirer. Then you may run the program using the command:
+ ```bash
+node index.js
+```
+# Usage
+Using a coding program a user will run this program through the coding terminal. You may run the program using the command:
+ ```bash
+node index.js
+```
+This will start the request for user input in generating a good README file. Upon completion said README will generate.
+
+
+link to video walkthrough for this application:
+
+# Contributions
+To contribute on this application please fork the repo on github, clone the repository for personal use, commit to your own branch then push work to your fork and pull request for review and approval.
+
 ######
 Author: Carter Venne
 
 Github repository: https://github.com/carterVenne/HW9-README-genny
+
+Email: cartervenne@gmail.com
