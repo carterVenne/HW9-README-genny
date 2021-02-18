@@ -1,11 +1,10 @@
 # HW9-README-genny
-Simple README generator using command line prompts
 
 # My Experience
 
 
 # Description
-Forking your own version of this repo and installing dependency inquirer allows the user to generate a simple readme using prompts from the command line.
+Forking your own version of this repo and installing dependency inquirer allows the user to generate a simple readme using prompts from the command line in a coding terminal.
 
 # User Story
 AS A developer
