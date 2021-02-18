@@ -1,3 +1,4 @@
+const generateMarkdown = require('./generateMarkdown.js');
 const inquirer = require('inquirer');
 const fs = require('fs');
 
@@ -49,5 +50,10 @@ inquirer.prompt([
         choices: ['GNU', 'Apache', 'PERL', 'IBM', 'EPL', 'MIT']
     },
 ]).then((data) => {
-    console.log(data);
+    //console.log(data)
+    let readmeInput = generateMarkdown(data);
+
+    fs.writeFile("README.md", readmeInput, (err) =>
+        err ? console.log(err) : console.log("README.md successfully created")
+    )
 })
