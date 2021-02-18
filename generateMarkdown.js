@@ -17,7 +17,9 @@ function renderLicenseBadge(data) {
             break;
         case 'EPL':
             response = '[![License](https://img.shields.io/badge/License-EPL%201.0-red.svg)]';
-            break;   
+            break;
+        default:
+            response = '';       
     }
     return response;
 }
