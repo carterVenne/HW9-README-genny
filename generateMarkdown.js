@@ -46,9 +46,10 @@ function renderLicenseLink(data) {
 }
 
 function renderLicenseSection(data) {
-    let render = `${renderLicenseBadge(data)}${renderLicenseLink}`
+  
+    let render = ` ${renderLicenseBadge(data)}${renderLicenseLink(data)}`
     return render;
-}
+  }
 
 function generateMarkdown(data) {
   return `# ${data.name}
