@@ -21,7 +21,7 @@ inquirer.prompt([
     {
         type: 'input',
         name: 'usage',
-        message: 'Enter your instructions for use:' 
+        message: 'Enter your instructions to run your application:' 
     },
     {
         type: 'input',
