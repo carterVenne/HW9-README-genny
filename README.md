@@ -51,7 +51,7 @@ An image of code for genrating markdown page with licensing:
 An image of the prompts for user input:
 <img src="readme/prompts.png">
 
-link to video walkthrough for this application:
+link to video walkthrough for this application: https://drive.google.com/file/d/1yW8fJVxbbrGeSsglie4bzh-6aSBnpCgK/view
 
 # Contributions
 To contribute on this application please fork the repo on github, clone the repository for personal use, commit to your own branch then push work to your fork and pull request for review and approval.
