@@ -25,22 +25,22 @@ function renderLicenseBadge(data) {
 function renderLicenseLink(data) {
     switch (data.license[0]) {
         case 'MIT':
-            link = 'https://opensource.org/licenses/MIT)';
+            response = 'https://opensource.org/licenses/MIT)';
             break;
         case 'GNU':
-          link = 'https://www.gnu.org/licenses/gpl-3.0)';
-          break;
+            response = 'https://www.gnu.org/licenses/gpl-3.0)';
+            break;
         case 'Apache':
-          link = 'https://opensource.org/licenses/Apache-2.0';
-          break;
+            response = 'https://opensource.org/licenses/Apache-2.0';
+            break;
         case 'IBM':
-          link = 'https://opensource.org/licenses/IPL-1.0)';
-          break;
+            response = 'https://opensource.org/licenses/IPL-1.0)';
+            break;
         case 'PERL':
-          link = 'https://opensource.org/licenses/Artistic-2.0)';
-          break;
+            response = 'https://opensource.org/licenses/Artistic-2.0)';
+            break;
         default:
-          link = '';
+            response = '';
     }    
     return response;
 }
