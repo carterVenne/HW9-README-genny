@@ -24,30 +24,29 @@ function renderLicenseBadge(data) {
 
 function renderLicenseLink(data) {
     switch (data.license[0]) {
-        case 'MIT' :
-            response = '(https://opensource.org/licenses/MIT)';
+        case 'MIT':
+            link = 'https://opensource.org/licenses/MIT)';
             break;
-        case 'GNU' :
-          response = '(https://www.gnu.org/licenses/gpl-3.0)';
+        case 'GNU':
+          link = 'https://www.gnu.org/licenses/gpl-3.0)';
           break;
-        case 'Apache' :
-          response = '(https://opensource.org/licenses/Apache-2.0)';
+        case 'Apache':
+          link = 'https://opensource.org/licenses/Apache-2.0';
           break;
-        case 'IBM' :
-          response = '(https://opensource.org/licenses/IPL-1.0)';
+        case 'IBM':
+          link = 'https://opensource.org/licenses/IPL-1.0)';
           break;
-        case 'PERL' :
-          response = '(https://opensource.org/licenses/Artistic-2.0)';
+        case 'PERL':
+          link = 'https://opensource.org/licenses/Artistic-2.0)';
           break;
         default:
-          response = '';
-    }
-      
+          link = '';
+    }    
     return response;
 }
 
 function renderLicenseSection(data) {
-    let render = ` ${renderLicenseBadge(data)}${renderLicenseLink}\n`
+    let render = ` ${renderLicenseBadge(data)} ${renderLicenseLink}\n`
     return render;
 }
 
@@ -65,28 +64,28 @@ function generateMarkdown(data) {
   <li><a href="#license">License</a></li>
   </ol>
 
-    ## Description:
+# Description:
     ${data.description}
 
-    ## Installation:
+# Installation:
     ${data.installation}
 
-    ## Usage: 
+# Usage: 
     ${data.usage}
 
-    ## Contributing:
+# Contributing:
     ${data.contribute}
 
-    ## Testing:
+# Testing:
     ${data.tests}
 
-    ## Questions:
+# Questions:
     Find this application and other works of mine on: 
     www.github.com/${data.github}
     Or contact me directly at:
     ${data.email}
 
-    ## License:
+# License:
     ${renderLicenseSection(data)}
 `;
 }
