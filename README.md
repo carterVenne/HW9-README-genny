@@ -46,9 +46,9 @@ This will start the request for user input in several categories for generating 
 <br>
 Example README: <img src="readme/readmeex1.png">
 <img src="readme/readmeex2.png">
-<br>
-An image of code for genrating markdown page with licensing and an image of the prompts for user input:
+An image of code for genrating markdown page with licensing:
 <img src="readme/markdown-license.png">
+An image of the prompts for user input:
 <img src="readme/prompts.png">
 
 link to video walkthrough for this application:
