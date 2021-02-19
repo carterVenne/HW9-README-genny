@@ -36,7 +36,7 @@ inquirer.prompt([
     {
         type: 'input',
         name: 'github',
-        message: 'Please input your github account:' 
+        message: 'Please input your github profile name:' 
     },
     {
         type: 'input',

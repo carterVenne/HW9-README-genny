@@ -81,10 +81,10 @@ function generateMarkdown(data) {
     ${data.tests}
 
     ## Questions:
-    Find this application adn other works of mine on: 
+    Find this application and other works of mine on: 
     www.github.com/${data.github}
     Or contact me directly at:
-    <a class="link" href="mailto:${data.email}">${data.email}</a>
+    ${data.email}
 
     ## License:
     ${renderLicenseSection(data)}
