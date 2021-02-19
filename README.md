@@ -42,7 +42,7 @@ Using a coding program a user will run this program through the coding terminal.
  ```bash
 node index.js
 ```
-This will start the request for user input in generating a good README file. Upon completion said README will generate.
+This will start the request for user input in several categories for generating a good README file. Upon completion said README will generate.
 
 
 link to video walkthrough for this application:
