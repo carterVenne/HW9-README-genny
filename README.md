@@ -43,7 +43,7 @@ Using a coding program a user will run this program through the coding terminal.
 node index.js
 ```
 This will start the request for user input in several categories for generating a good README file. Upon completion said README will generate.
-
+Example README: <img src="readme_pics/readme_ex.png" width="600" height="500">
 
 link to video walkthrough for this application:
 
