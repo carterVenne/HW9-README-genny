@@ -4,6 +4,7 @@
   "description": "Simple Readme Generator",
   "main": "index.js",
   "dependencies": {
+    "fs": "0.0.1-security",
     "inquirer": "^7.3.3"
   },
   "devDependencies": {},
