@@ -1,10 +1,10 @@
 # HW9-README-genny
 
 # My Experience
-
+Coming up with prompts and making the basic layout felt easy enough but figuring out the layout of the markdown genrating threw me off and I can't find the reason behind my licensing not generating in markdown properly.
 
 # Description
-Forking your own version of this repo and installing dependency inquirer allows the user to generate a simple readme using prompts from the command line in a coding terminal.
+Forking your own version of this repo and installing dependency inquirer allows the user to generate a simple readme using prompts from the command line in a coding terminal. The end result is a clean, basic markdown that can be expanded upon.
 
 # User Story
 AS A developer
