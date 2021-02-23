@@ -18,19 +18,19 @@
     Use your natural computer powers!
 
 # Usage: 
-    node superpower.js to acquire your powers
+     node superpower.js to acquire your powers
 
 # Contributing:
     Make new superpowers!
 
 # Testing:
-    Evil Villians
+     Evil Villians
 
 # Questions:
     Find this application and other works of mine on: 
-    www.github.com/Bruce Wayne
+    www.github.com/BruceWayne
     Or contact me directly at:
     Batman@gotham.com
 
 # License:
-     [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)]https://www.gnu.org/licenses/gpl-3.0)
+ [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
